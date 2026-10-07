@@ -683,23 +683,7 @@ Keep the feature order: `Pregnancies, Glucose, BloodPressure, SkinThickness, Ins
 
 ---
 
-## ☁️ Deployment
 
-**Streamlit Community Cloud**
-1. Push the repo (including both `.pkl` files and a populated `requirements.txt`) to GitHub.
-2. Create a new app on Streamlit Community Cloud pointing to `app.py`.
-3. Deploy.
-
-**Docker (optional)**
-
-```dockerfile
-FROM python:3.11-slim
-WORKDIR /app
-COPY . .
-RUN pip install --no-cache-dir -r requirements.txt
-EXPOSE 8501
-CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
-```
 
 ---
 
