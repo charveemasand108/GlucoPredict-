@@ -716,11 +716,6 @@ Keep the feature order: `Pregnancies, Glucose, BloodPressure, SkinThickness, Ins
 
 ---
 
-## 🤝 Contributing, License & Acknowledgements
-
-**Contributing:** Fork the repo, create a feature branch, commit your changes, and open a pull request.
-
-**License:** No licence has been specified yet. Consider adding one (e.g. MIT) to the repository.
 
 **Acknowledgements**
 - Pima Indians Diabetes Database (National Institute of Diabetes and Digestive and Kidney Diseases) via the UCI / Kaggle repositories
